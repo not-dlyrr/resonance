@@ -1,0 +1,30 @@
+{
+  "label": "manager",
+  "runs": [
+    {
+      "run": 1,
+      "usable_startup_seconds": 0.7355526000028476,
+      "idle_cpu_percent_total_machine": 0.0,
+      "combined_working_set_mb": 407.49609375,
+      "processes": 7,
+      "window_seconds": 8
+    },
+    {
+      "run": 2,
+      "usable_startup_seconds": 0.7892044999753125,
+      "idle_cpu_percent_total_machine": 0.0,
+      "combined_working_set_mb": 407.29296875,
+      "processes": 7,
+      "window_seconds": 8
+    },
+    {
+      "run": 3,
+      "usable_startup_seconds": 0.8040346999769099,
+      "idle_cpu_percent_total_machine": 0.03656470822760656,
+      "combined_working_set_mb": 411.15625,
+      "processes": 7,
+      "window_seconds": 8
+    }
+  ],
+  "method": "Warm filesystem cache; 3 process restarts; usable DOM controls; 4s settle; 8s idle measurement; summed process-tree working sets (shared pages may be counted multiple times); CPU normalized to logical processor count. Spotify Home paused. CDP instrumentation enabled."
+}

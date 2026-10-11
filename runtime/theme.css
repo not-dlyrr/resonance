@@ -1,0 +1,13 @@
+/* Adapter selectors kept in this file. Neutral blue palettes, no green status. */
+html,body {background:var(--res-bg)!important;color:var(--res-text)!important;--encore-body-font-stack:var(--res-font),'Segoe UI',sans-serif;--encore-title-font-stack:var(--res-font),'Segoe UI',sans-serif;font-family:var(--res-font),'Segoe UI',sans-serif!important;}
+.encore-dark-theme,.encore-light-theme {--background-base:var(--res-bg);--background-highlight:var(--res-surface);--background-elevated-base:var(--res-surface);--background-elevated-highlight:var(--res-surface);--background-tinted-base:var(--res-surface);--text-base:var(--res-text);--text-subdued:var(--res-muted);--essential-bright-accent:var(--res-accent);--text-bright-accent:var(--res-accent);--background-press:var(--res-surface);}
+[data-testid="global-nav-bar"],[data-testid="now-playing-bar"],nav[aria-label="Main"],[data-testid="Root__right-sidebar"]{background:var(--res-surface)!important;color:var(--res-text)!important;}
+[data-testid="Root__main-view"],main,[data-testid="playlist-page"]{background:var(--res-bg)!important;}
+[role="row"][aria-rowindex]:has([role="gridcell"]),[data-testid="tracklist-row"]{min-height:var(--res-row)!important;border-radius:var(--res-radius)!important;}
+[data-testid="control-button-playpause"],[data-testid="control-button-playpause"]>span{background:var(--res-accent)!important;color:var(--res-bg)!important;}
+[data-testid="card-image"],[data-testid="cover-art-image"]{border-radius:var(--res-radius)!important;}
+[data-testid="context-item-info-title"],h1,h2,h3{color:var(--res-text)!important;font-family:var(--res-font),sans-serif!important;}
+button:focus-visible,a:focus-visible {outline:2px solid var(--res-accent)!important;outline-offset:3px!important;}
+#resonance-notice {position:fixed;bottom:112px;left:50%;transform:translateX(-50%);z-index:2147483646;background:var(--res-surface);color:var(--res-text);border:1px solid var(--res-accent);border-radius:12px;padding:12px 20px;font:14px var(--res-font),sans-serif;box-shadow:0 12px 40px #0005;max-width:80vw;}
+#resonance-timer {position:fixed;right:24px;bottom:108px;z-index:2147483645;background:var(--res-surface);color:var(--res-text);border:1px solid var(--res-accent);border-radius:12px;padding:10px 14px;font:14px var(--res-font),sans-serif;min-height:44px;cursor:pointer;}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;}}

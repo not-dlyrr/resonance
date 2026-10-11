@@ -1,0 +1,30 @@
+{
+  "label": "spicetify",
+  "runs": [
+    {
+      "run": 1,
+      "usable_startup_seconds": 5.012410999974236,
+      "idle_cpu_percent_total_machine": 4.4282705077183735,
+      "combined_working_set_mb": 1453.26953125,
+      "processes": 8,
+      "window_seconds": 8
+    },
+    {
+      "run": 2,
+      "usable_startup_seconds": 4.6606021000188775,
+      "idle_cpu_percent_total_machine": 6.952834256866157,
+      "combined_working_set_mb": 1480.4765625,
+      "processes": 8,
+      "window_seconds": 8
+    },
+    {
+      "run": 3,
+      "usable_startup_seconds": 3.6728855000110343,
+      "idle_cpu_percent_total_machine": 3.2039628220069365,
+      "combined_working_set_mb": 1429.875,
+      "processes": 8,
+      "window_seconds": 8
+    }
+  ],
+  "method": "Warm filesystem cache; 3 process restarts; usable DOM controls; 4s settle; 8s idle measurement; summed process-tree working sets (shared pages may be counted multiple times); CPU normalized to logical processor count. Spotify Home paused. CDP instrumentation enabled."
+}

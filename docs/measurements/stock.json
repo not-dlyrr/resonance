@@ -1,0 +1,30 @@
+{
+  "label": "stock",
+  "runs": [
+    {
+      "run": 1,
+      "usable_startup_seconds": 4.168426399992313,
+      "idle_cpu_percent_total_machine": 1.7051103401223857,
+      "combined_working_set_mb": 1254.3984375,
+      "processes": 8,
+      "window_seconds": 8
+    },
+    {
+      "run": 2,
+      "usable_startup_seconds": 3.7373035000055097,
+      "idle_cpu_percent_total_machine": 8.309226680442325,
+      "combined_working_set_mb": 1424.6796875,
+      "processes": 8,
+      "window_seconds": 8
+    },
+    {
+      "run": 3,
+      "usable_startup_seconds": 4.366937200014945,
+      "idle_cpu_percent_total_machine": 6.546133143464779,
+      "combined_working_set_mb": 1537.48828125,
+      "processes": 8,
+      "window_seconds": 8
+    }
+  ],
+  "method": "Warm filesystem cache; 3 process restarts; usable DOM controls; 4s settle; 8s idle measurement; summed process-tree working sets (shared pages may be counted multiple times); CPU normalized to logical processor count. Spotify Home paused. CDP instrumentation enabled."
+}

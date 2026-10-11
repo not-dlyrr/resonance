@@ -1,0 +1,7 @@
+[
+ {"id":"slate","name":"Slate","version":"1.0.0","kind":"theme","description":"Balanced charcoal surfaces and a quiet blue accent.","source":"Resonance · bundled","compatibility":"spotify-1.3.4-dom-v1","entry":"theme.css"},
+ {"id":"ink","name":"Ink","version":"1.0.0","kind":"theme","description":"Deep black with cool surfaces for late-night listening.","source":"Resonance · bundled","compatibility":"spotify-1.3.4-dom-v1","entry":"theme.css"},
+ {"id":"paper","name":"Paper","version":"1.0.0","kind":"theme","description":"Warm light surfaces with clear, dark typography.","source":"Resonance · bundled","compatibility":"spotify-1.3.4-dom-v1","entry":"theme.css"},
+ {"id":"keyboard","name":"Playback shortcuts","version":"1.0.0","kind":"extension","description":"Alt + Shift + Space to play/pause. Arrow keys to skip. I shows the current track.","source":"Resonance · bundled","compatibility":"spotify-1.3.4-dom-v1","entry":"keyboard.js"},
+ {"id":"sleep-timer","name":"Sleep timer","version":"1.0.0","kind":"extension","description":"Start or cancel a sleep timer inside Spotify. Pauses playback once; no polling.","source":"Resonance · bundled","compatibility":"spotify-1.3.4-dom-v1","entry":"sleep-timer.js"}
+]
