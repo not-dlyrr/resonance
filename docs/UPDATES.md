@@ -6,6 +6,8 @@ The manager checks automatically on launch, then every six hours while open, whe
 
 Tauri updater signatures are mandatory. The public key is in `src-tauri/tauri.conf.json`; installer `.sig` files are published beside releases. HTTPS is required for user-selected feeds. An unsigned/tampered installer cannot pass the embedded release key. Windows Authenticode signing is separate; initial builds are not Authenticode-signed.
 
+Live verification on 2026-10-11: installed 0.1.0 detected the public 0.1.1 feed, downloaded and installed the signed release, then restarted into the complete v0 interface. The installed executable matched the released installer payload. This positive update path was tested; no claim of a separate tampered-download experiment is made.
+
 ## Release maintainers
 
 The private signing key is deliberately outside the source tree and repository. Keep it safe; losing it prevents future updates to existing installations. Never commit keys. Current key location is provided locally in delivery notes rather than the public repository.

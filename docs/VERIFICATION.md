@@ -10,6 +10,7 @@ Windows x64; standalone Spotify 1.3.4.258. Evidence below separates real applica
 - SHA-256 checks after Restore matched the original Spotify xpui/login archives and existing Spicetify config and both backup archives. No login/preferences/cache/library files are mutated by the engine.
 - Fetched 163 live Spicetify Marketplace entries (25 themes, 45 extensions, 93 CSS snippets). Downloaded, assessed and installed the converted Rounded Now Playing Bar snippet. Other package/API compatibility is not certified.
 - Verified every restyled GUI screen and major dialog in the installed 0.1.1 release. Tested dropdown width, source/hash review, incompatible install disabled, and a profile save persisting across restart. Rendered minimum-size viewport checks; this is separate from a full physical Windows scaling matrix. See RESTYLE.md.
+- Published the public GitHub release/feed, installed 0.1.0, detected 0.1.1 through the updater, installed the signed download and observed restart into the five-view 0.1.1 design. The updated installed executable matched the published installer payload hash.
 - SF font selection and import pipeline are implemented. No licensed Apple font file was supplied or bundled; actual San Francisco glyph rendering is not certified on this machine. Windows falls back to Segoe UI.
 
 ## Automated fixtures
